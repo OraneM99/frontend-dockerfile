@@ -53,6 +53,11 @@
           "defaultConfiguration": "production"
         },
         "serve": {
+          "options" : {
+            "allowedHosts": [
+              ".code.hackeuse.fr"
+            ]
+          },
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
