@@ -1,0 +1,1 @@
+CMD ["npm", "start", "--", "--host", "0.0.0.0", "--allowed-hosts", ".code.hackeuse.fr"]
