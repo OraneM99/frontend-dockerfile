@@ -11,6 +11,8 @@ node_modules
 # Ignore build directories
 /build
 /dist
+.vscode
+.idea
 
 # Include only the package.json file from the root directory
 !package.json
